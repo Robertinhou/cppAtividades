@@ -1,0 +1,36 @@
+/******************************************************************************
+
+                              Online C++ Compiler.
+               Code, Compile, Run and Debug C++ program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int x;
+    int y;
+    int z;
+    
+    cout << "Insira um número: ";
+    cin >> x;
+    
+    cout << "Insira outro número: ";
+    cin >> y;
+    
+    cout << "Insira outro número: ";
+    cin >> z;
+    
+    if (x < y && x > z){
+        cout << "O primeiro número é menor que o segundo e maior que o terceiro";
+    } else{
+        cout << "O primeiro número não atende os requisitos";
+    }
+    
+
+
+    return 0;
+}
