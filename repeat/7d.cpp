@@ -22,14 +22,14 @@ int main()
     cin >> tentativa;
     
     if(tentativa != senha){
-        do{
+        while(tentativa != senha && i <3){
             
             cout << "As senhas não coincidem! Tente novamente: ";
             cin >> tentativa;
             
             i++;
             
-        } while(tentativa != senha && i <3);
+        } 
         
         if( i == 3){
             cout << "Você excedeu o limite de 3 senhas. Crie uma nova";
@@ -42,3 +42,4 @@ int main()
     return 0;
     
 }
+
