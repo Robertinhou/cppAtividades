@@ -181,7 +181,7 @@ void gerarHolerite(){
 
 int main() {
     
-    int escolhaMenu;
+    
     
     cout << "Escolha um funcionário pra gerar o holerite: \n";
     
